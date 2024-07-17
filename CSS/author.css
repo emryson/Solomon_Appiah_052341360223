@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #0a1d3e; /* Dark blue background */
+    background: url(../Images/IMG_.jpg) ;
+    background-size: cover;
+    
+}
+
+/* Header Styling */
+header {
+    background: #1a2a4d; /* Darker blue */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header a#caltek {
+    color: #ffab40; /* Light orange for the title */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header a#caltek:hover {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffab40; /* Light orange for hover effect */
+}
+
+/* Main Content Styling */
+main {
+    padding: 20px;
+    
+    /* background: #1a2a4d; Dark blue */
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 13px;
+    
+   
+}
+
+img {
+    width: 40%; /* Responsive image */
+    border-radius: 100px;
+    object-position: CENTER;
+}
+#bgimg{
+    background-color: #0d1f45ae;
+    backdrop-filter: blur(10px);
+    background-size: cover;
+  
+}
+
+h2, h4 {
+    color: #ffab40;
+    margin-bottom : 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+strong {
+    color: #ffab40; /* Light orange */
+}
+
+b {
+    color: #ffab40; /* Light orange */
+}
+
+em {
+    display: block;
+    margin-top: 20px;
+    font-style: italic;
+    color: #f0f0f0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #102144e7; /* Darker blue */
+    color: #f0f0f0;
+    position: relative; /* Adjusted for layout */
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur();
+}
+abbr{
+    font-size: 25px;
+    text-decoration: none;
+}
